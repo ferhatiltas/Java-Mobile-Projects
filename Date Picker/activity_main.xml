@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTarihDegistir"
+        android:text="Tarih Değiştir"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mevcut Tarih"
+        android:textSize="25sp"
+        android:id="@+id/txtMevcutTarih"/>
+    <TextView
+        android:id="@+id/txtTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"/>
+
+    <DatePicker android:id="@+id/dpSonuc"
+        android:layout_width="280dp"
+        android:layout_height="237dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+
+        android:headerBackground="@color/colorAccent" />
+
+</LinearLayout>
