@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="380dp"-->
+<!--        android:id="@+id/fragmentA"-->
+<!--        tools:layout="@layout/fragment_a"-->
+<!--        android:name="com.ferhatiltas.fragmentyapisi.FragmentA"/>-->
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/fragmentB"-->
+<!--        tools:layout="@layout/fragment_b"-->
+<!--        android:name="com.ferhatiltas.fragmentyapisi.FragmentB"/>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ekle A"
+            android:onClick="btnEkleA_click"
+            android:id="@+id/btnEklerA"
+            tools:ignore="OnClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="KAldır A"
+            android:onClick="btnKaldirA_click"
+            android:id="@+id/btnKaldirA"
+            tools:ignore="OnClick" />  <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text=" A>>B"
+        android:onClick="btnDegistirA_click"
+        android:id="@+id/btnDegistirA"
+        tools:ignore="OnClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ekle B"
+            android:onClick="btnEkleB_click"
+            android:id="@+id/btnEklerB"
+            tools:ignore="OnClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="KAldır B"
+            android:onClick="btnKaldirB_click"
+            android:id="@+id/btnKaldirB"
+            tools:ignore="OnClick" />  <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text=" B>>A"
+        android:onClick="btnDegistirB_click"
+        android:id="@+id/btnDegistirB"
+        tools:ignore="OnClick" />
+    </LinearLayout>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_marginTop="150dp"
+    android:layout_height="match_parent"
+android:id="@+id/grup"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textStyle="italic|bold"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="318dp"
+            tools:listitem="ddsds" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="162dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="dsasasddsadsadsad" />
+
+        <Chronometer
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextClock
+            android:layout_width="199dp"
+            android:layout_height="84dp"
+            tools:targetApi="jelly_bean_mr1" />
+    </LinearLayout>
+
+</ScrollView>
