@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListViewDüzenleSilMenüsü</string>
+    <string-array name="names">
+        <item>Aplle</item>
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>AMD</item>
+    </string-array>
+</resources>
