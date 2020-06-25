@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreference_BeniHatirla</string>
+    <string name="test_username">deneme</string>
+    <string name="test_password">deneme</string>
+</resources>
