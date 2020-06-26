@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap İsmi: "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yazar: "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtYazar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSil_onClick"
+        android:text="Sil"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap İsmi: "
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txtBaslikD"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yazar: "
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txtYazarD"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGuncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:onClick="btnGuncelle_onClick"
+        android:text="Güncelle"
+        android:textSize="25sp" />
+
+</LinearLayout>
